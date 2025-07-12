@@ -28,8 +28,8 @@ def merge_excel_files():
     summary_df.to_excel(FILE_PATH, index=False)
     return summary_df
 
-logo = Image.open(r"C:\Users\Lenovo\Desktop\logo-pfizer-1024.png")
-st.image(logo, width=150)
+# logo = Image.open(r"C:\Users\Lenovo\Desktop\logo-pfizer-1024.png")
+# st.image(logo, width=150)
 # 加载数据
 st.title("Ranking List")
 
